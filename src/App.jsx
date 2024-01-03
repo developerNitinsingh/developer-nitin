@@ -10,7 +10,7 @@ import Footer from "./components/Footer.jsx";
 function App() {
   return (
     <div
-      className="bg-[#131313] bg-no-repeat"
+      className="bg-[#131313] bg-no-repeat bg-top"
       style={{
         backgroundImage: `url(${bg})`,
       }}

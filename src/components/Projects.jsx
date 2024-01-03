@@ -34,9 +34,9 @@ function Projects() {
               {/* <p className="text-center text-sm text-[#bbbbbb] pt-6">
                 {project.techstacks}
               </p> */}
-              <div className="flex justify-center flex-wrap">
+              <div className="flex justify-center flex-wrap gap-1">
                 {project.techstacks.map((techstack) => (
-                  <p className="text-center text-sm text-[#bbbbbb] pt-6 mr-2">
+                  <p className="text-center text-sm text-[#bbbbbb] ">
                     {techstack}
                   </p>
                 ))}
